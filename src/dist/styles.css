@@ -1,0 +1,174 @@
+/* You can add global styles to this file, and also import other style files */
+
+.background {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.login-root {
+    margin-left:auto;
+    margin-right:auto;
+    width: 20%;
+    margin-top:10%;
+    text-align: center;
+}
+
+.login-button {
+    margin-top: 10%;
+    width: 60%;
+    margin-left:20%;
+}
+
+.name-table {
+    margin-top: 10%;
+}
+
+.home-root {
+    margin-top: 5%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.today-table {
+    border-radius: 5px;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 5%;
+}
+
+.margin-top-sm {
+    margin-top: 5%;
+}
+
+.create-root {
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+}
+
+.blue {
+    color: #3498db !important;
+}
+
+.date-header {
+    color: #34495e !important;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+ .login-root {
+     width: 70%;
+ }
+
+ .create-root {
+    margin-top: 30%;
+ }
+}
+
+/*Loading Spinner*/
+
+.sampleContainer {
+    margin-top: 250px;
+}
+
+.loader {
+    position: relative;
+    width: 44px;
+    height: 8px;
+    margin: 12px auto;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: #ccc;
+    position: absolute;
+}
+
+.dot_1 {
+    animation: animateDot1 1.5s linear infinite;
+    left: 12px;
+    background: #e579b8;
+}
+
+.dot_2 {
+    animation: animateDot2 1.5s linear infinite;
+    animation-delay: 0.5s;
+    left: 24px;
+}
+
+.dot_3 {
+    animation: animateDot3 1.5s linear infinite;
+    left: 12px;
+}
+
+.dot_4 {
+    animation: animateDot4 1.5s linear infinite;
+    animation-delay: 0.5s;
+    left: 24px;
+}
+
+@keyframes animateDot1 {
+    0% {
+        transform: rotate(0deg) translateX(-12px);
+    }
+    25% {
+        transform: rotate(180deg) translateX(-12px);
+    }
+    75% {
+        transform: rotate(180deg) translateX(-12px);
+    }
+    100% {
+        transform: rotate(360deg) translateX(-12px);
+    }
+}
+@keyframes animateDot2 {
+    0% {
+        transform: rotate(0deg) translateX(-12px);
+    }
+    25% {
+        transform: rotate(-180deg) translateX(-12px);
+    }
+    75% {
+        transform: rotate(-180deg) translateX(-12px);
+    }
+    100% {
+        transform: rotate(-360deg) translateX(-12px);
+    }
+}
+@keyframes animateDot3 {
+    0% {
+        transform: rotate(0deg) translateX(12px);
+    }
+    25% {
+        transform: rotate(180deg) translateX(12px);
+    }
+    75% {
+        transform: rotate(180deg) translateX(12px);
+    }
+    100% {
+        transform: rotate(360deg) translateX(12px);
+    }
+}
+@keyframes animateDot4 {
+    0% {
+        transform: rotate(0deg) translateX(12px);
+    }
+    25% {
+        transform: rotate(-180deg) translateX(12px);
+    }
+    75% {
+        transform: rotate(-180deg) translateX(12px);
+    }
+    100% {
+        transform: rotate(-360deg) translateX(12px);
+    }
+}
